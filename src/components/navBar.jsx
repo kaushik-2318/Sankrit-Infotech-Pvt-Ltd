@@ -25,7 +25,7 @@ function NavBar() {
   })
 
   return (
-    <div className='relative'>
+    <div className='relative flex justify-center'>
       <div className='fixed text-white rounded-3xl m-4 p-4 px-8 w-[97%] border-2 z-20 backdrop-blur-sm shadow-xl'>
         <div className='flex flex-row justify-between items-center'>
           <Link to="home" spy={true} duration={1000} activeClass="a" smooth={true}><div className='navside cursor-pointer text-xl font-bold'>Sankrit Infotech Pvt Ltd.</div></Link>
