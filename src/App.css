@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.heroimage {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 70%, rgb(0, 0, 0)), url("../src/assets/heroLeft.png"), url("../src/assets/heroRight.png"), url("../src/assets/heroVector.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 50px;
+  background-color: black;
+}
+
+.sliderimage {
+  background: url("../src/assets/techbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.client {
+  background: rgb(55, 25, 214);
+  background: linear-gradient(90deg, rgba(57, 25, 214, 0.366) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.active{
+  border-bottom: 2px solid white;
+}
