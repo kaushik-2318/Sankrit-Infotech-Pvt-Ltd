@@ -26,7 +26,7 @@ function NavBar() {
 
   return (
     <div className='relative'>
-      <div className='fixed text-white rounded-3xl m-4 p-4 px-8 w-[97%] border-2 z-10 backdrop-blur-sm shadow-xl'>
+      <div className='fixed text-white rounded-3xl m-4 p-4 px-8 w-[97%] border-2 z-20 backdrop-blur-sm shadow-xl'>
         <div className='flex flex-row justify-between items-center'>
           <Link to="home" spy={true} duration={1000} activeClass="a" smooth={true}><div className='navside cursor-pointer text-xl font-bold'>Sankrit Infotech Pvt Ltd.</div></Link>
           <div className='hidden md:block'>
@@ -44,9 +44,9 @@ function NavBar() {
           </div>
         </div>
       </div>
-      <div className={`w-full side absolute h-screen flex justify-center items-center backdrop-blur-sm flex-col transition-all ease-in-out duration-500 md:hidden ${sidepanel ? `left-0` : `left-96`}`}>
-        <div className='w-full'>
-          <ul className='flex justify-center items-center flex-col w-full'>
+      <div className={`side fixed h-screen z-10 flex justify-center items-center backdrop-blur-lg shadow-xl flex-col transition-all ease-in-out duration-500 md:hidden ${sidepanel ? `left-0` : `left-96 hidden`}`}>
+        <div className=''>
+          <ul className='flex h-screen justify-center items-center flex-col w-screen'>
             <Link to='home' spy={true} duration={1000} activeClass="active" smooth={true}><li className='px-24 py-5 hover:border-b-white hover:border-b-2' >Home</li></Link>
             <Link to='about' spy={true} offset={-50} duration={1000} activeClass="active" smooth={true}><li className='px-24 py-5 hover:border-b-white hover:border-b-2' >About</li></Link>
             <Link to='services' spy={true} duration={1000} activeClass="active" smooth={true}><li className='px-24 py-5 hover:border-b-white hover:border-b-2' >Services</li></Link>
