@@ -23,7 +23,7 @@ export default client
 const Box = (props) => {
   return (
     <>
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200" className='bg-zinc-800 flex justify-center items-center flex-col w-full rounded-3xl relative py-10 gap-4 shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)]'>
+      <div className='bg-zinc-800 flex justify-center items-center flex-col w-full rounded-3xl relative py-10 gap-4 shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)]'>
         <div className='bg-white p-3 rounded-full absolute -top-5'>
           <img className='w-7' src={props.image} alt="Icon" fill="blue" />
         </div>

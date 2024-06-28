@@ -8,9 +8,9 @@ import briefcase from '../assets/briefcase.svg'
 
 function pricing() {
     return (
-        <div name='services' className='flex justify-center items-center flex-col gap-10 pt-40'>
-            <div className="text-6xl text-center md:text-7xl font-bold md:mb-10 font-['Roboto']">Check our <span className="text-[#106eea]">Services</span></div>
-            <div className='flex shadow-lg justify-center items-center gap-12 flex-wrap'>
+        <div name='services' className='flex justify-center items-center flex-col gap-10 pt-32'>
+            <div className="text-6xl text-center md:text-7xl font-bold md:mb-5 font-['Roboto']">Check our <span className="text-[#106eea]">Services</span></div>
+            <div className='flex shadow-lg justify-center items-center gap-12 flex-wrap mb-20'>
                 <Box text="Web Hosting" desc="Your website's reliable home. Get secure, professional web hosting for your business." image={world}/>
                 <Box text="Bulk SMS" desc="Reach more customers instantly. Powerful bulk SMS marketing and alerts." image={file} />
                 <Box text="Payment Gateway" desc="Secure online checkout. Accept payments easily. Happy customers, happy you." image={money} />
@@ -27,7 +27,7 @@ export default pricing
 const Box = (props) => {
     return (
         <>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200" className='flex p-5 h-80 py-16 gap-5 w-80 md:w-96 justify-center items-center flex-col md:hover:shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)] bg-zinc-800 rounded-xl md:hover:scale-110 duration-500'>
+            <div className='flex p-5 h-80 py-16 gap-5 w-80 md:w-96 justify-center items-center flex-col md:hover:shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)] bg-zinc-800 rounded-xl md:hover:scale-110 duration-500'>
                 <div className='bg-white flex justify-center items-center p-4 rounded-xl'>
                     <img className='w-7' src={props.image}  alt="icon" />
                 </div>

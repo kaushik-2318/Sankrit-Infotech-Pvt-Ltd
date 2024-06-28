@@ -8,7 +8,7 @@ function pricing() {
             <div className='text-2xl md:text-4xl font-light py-7 md:py-0'>Unlock endless possibilities</div>
             <div className='flex shadow-lg justify-center items-center gap-12 flex-wrap'>
 
-                <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease-out" className='flex h-[36rem] justify-center items-center flex-col text-justify w-72 duration-500 hover:shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)] bg-zinc-800 rounded-xl hover:scale-105'>
+                <div className='flex h-[36rem] justify-center items-center flex-col text-justify w-72 duration-500 hover:shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)] bg-zinc-800 rounded-xl hover:scale-105'>
                     <div className='text-[#106eea] text-center text-2xl border-b-2 font-bold w-full p-9'>
                         Static Website
                     </div>
@@ -48,7 +48,7 @@ function pricing() {
                     </div>
                 </div>
 
-                <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease-out" className='flex h-[36rem] justify-center items-center flex-col text-justify w-72 duration-500 hover:shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)] bg-zinc-800 rounded-xl hover:scale-105'>
+                <div  className='flex h-[36rem] justify-center items-center flex-col text-justify w-72 duration-500 hover:shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)] bg-zinc-800 rounded-xl hover:scale-105'>
                     <div className='text-[#106eea] text-center text-2xl border-b-2 font-bold w-full p-8'>
                         Dynamic Website
                     </div>
@@ -90,7 +90,7 @@ function pricing() {
                     </div>
                 </div>
 
-                <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease-out" className='flex h-[36rem] justify-center items-center flex-col text-justify w-72 duration-500 hover:shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)] bg-zinc-800 rounded-xl hover:scale-105'>
+                <div  className='flex h-[36rem] justify-center items-center flex-col text-justify w-72 duration-500 hover:shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)] bg-zinc-800 rounded-xl hover:scale-105'>
                     <div className='text-[#106eea] relative text-center text-2xl border-b-2 font-bold w-full p-6 mt-6'>
                         Customised ERP
                         <span className='text-white text-sm font-thin absolute -top-3 right-3 border-2 px-3 p-1 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50'>Advanced</span>
@@ -133,7 +133,7 @@ function pricing() {
                     </div>
                 </div>
 
-                <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease-out" className='flex h-[36rem] items-center flex-col pt-4 text-justify w-72 duration-500 hover:shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)] bg-zinc-800 rounded-xl hover:scale-105'>
+                <div  className='flex h-[36rem] items-center flex-col pt-4 text-justify w-72 duration-500 hover:shadow-[0px_0px_5px_5px_rgba(132,89,226,0.7)] bg-zinc-800 rounded-xl hover:scale-105'>
                     <div className='text-[#106eea] relative text-center text-2xl border-b-2 font-bold w-full p-6 mt-3'>
                         QGEN
                         <span className='text-white text-sm font-thin absolute -top-5 right-3 border-2 px-3 p-1 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50'>Advanced</span>

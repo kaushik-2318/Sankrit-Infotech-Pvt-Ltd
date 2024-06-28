@@ -4,7 +4,7 @@ import Modal from './modal'
 function main() {
   return (
     <>
-      <div name='team' className='flex justify-center items-center flex-col pt-16'>
+      <div name='team' className='client rounded-3xl ml-4 md:ml-16 overflow-x-auto my-20 flex justify-center items-center flex-col pt-16'>
         <div className='flex justify-center items-center flex-col '>
           <div className='text-4xl font-bold w-full pl-7 md:pl-0'>Our Hardworking <span className='text-[#106eea]'>Team</span></div>
           <div className='rounded-3xl flex shadow-lg flex-wrap justify-center items-center gap-12 py-10 pl-6'>

@@ -7,7 +7,7 @@ function address() {
     return (
         <div className='flex justify-around flex-wrap w-full items-center'>
             <div className='flex justify-center items-left flex-col gap-10'>
-                <div data-aos="fade-up" data-aos-duration="1000" className='flex h-32 rounded-3xl justify-start items-center gap-5 border-2 p-5 bg-[#20282f] shadow-[0px_0px_5px_5px_rgba(255,255,255,0.3)]'>
+                <div className='flex h-32 rounded-3xl justify-start items-center gap-5 border-2 p-5 bg-[#20282f] shadow-[0px_0px_5px_5px_rgba(255,255,255,0.3)]'>
                     <div className='border-2 border-dotted border-blue-500 rounded-full w-10 h-10 flex justify-center items-center shadow-lg' >
                         <img src={call} alt="Icon" />
                     </div>
@@ -17,7 +17,7 @@ function address() {
                         <div className='font-light'>+91 9835370848</div>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1000" className='flex h-32 rounded-3xl justify-start items-center gap-5 border-2 p-5 bg-[#20282f] shadow-[0px_0px_5px_5px_rgba(255,255,255,0.3)]'>
+                <div className='flex h-32 rounded-3xl justify-start items-center gap-5 border-2 p-5 bg-[#20282f] shadow-[0px_0px_5px_5px_rgba(255,255,255,0.3)]'>
                     <div className='border-2 border-dotted border-blue-500 rounded-full w-10 h-10 flex justify-center items-center shadow-lg'>
                         <img src={envelop} alt="Icon" />
                     </div>
@@ -27,7 +27,7 @@ function address() {
                         <div className='font-light'>sankritinfotech@gmail.com</div>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1000" className='flex h-32  rounded-3xl justify-start items-center gap-5 border-2 p-5 bg-[#20282f] shadow-[0px_0px_5px_5px_rgba(255,255,255,0.3)]'>
+                <div className='flex h-32  rounded-3xl justify-start items-center gap-5 border-2 p-5 bg-[#20282f] shadow-[0px_0px_5px_5px_rgba(255,255,255,0.3)]'>
                     <div className='border-2 border-dotted border-blue-500 rounded-full w-10 h-10 flex justify-center items-center shadow-lg'>
                         <img src={location} alt="Icon" />
                     </div>
@@ -39,7 +39,7 @@ function address() {
                     </div>
                 </div>
             </div>
-            <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease-out" className='border-2 px-5 py-10 md:p-10 mx-8 mt-12 rounded-3xl bg-[#20282f] shadow-[0px_0px_5px_5px_rgba(255,255,255,0.3)]'>
+            <div className='border-2 px-5 py-10 md:p-10 mx-8 mt-12 rounded-3xl bg-[#20282f] shadow-[0px_0px_5px_5px_rgba(255,255,255,0.3)]'>
                 <form action='' method=''>
                     <div className='flex justify-center  flex-wrap md:flex-nowrap items-center gap-2'>
                         <input className='p-3 bg-[#37444f] w-full outline-none rounded-xl' type="text" name='name' placeholder='Full Name' />

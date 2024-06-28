@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 
 function main() {
     return (
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200" className='flex justify-center md:flex-nowrap flex-wrap items-center gap-12 pt-5 p-32'>
+        <div className='flex justify-center md:flex-nowrap flex-wrap items-center gap-12 pt-5 p-32'>
             <MainModal title="Web Hosting" description="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi" />
             <MainModal title="VPS" description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore" />
             <MainModal title="Customised ERP" description="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia" />

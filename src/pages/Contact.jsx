@@ -1,6 +1,6 @@
 import React from 'react'
-import Address from './address'
-import Map from './map'
+import Address from '../components/address'
+import Map from '../components/map'
 
 function contact() {
   return (
